@@ -1062,6 +1062,7 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        text-align: center;
         flex-wrap: wrap; /* pour le responsive */
         font-size: 0.95rem;
         color: #333;
@@ -1071,7 +1072,6 @@ footer {
         display: flex;
         gap: 20px;
         margin-top: 5%;
-        padding: 0 60px;
         text-align: center;
         justify-content: center;
     }
@@ -1278,3 +1278,5 @@ footer {
     }
     
 }
+  
+  
