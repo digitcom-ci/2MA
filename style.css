@@ -1074,10 +1074,10 @@ footer {
     }
     .produit-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
         gap: 30px;
         max-width: 1200px;
-        margin: auto;
+        margin: 0;
     } 
     .produit-card {
         background: white;
@@ -1120,7 +1120,7 @@ footer {
         object-fit: cover; /* Pour que l'image garde ses proportions */
         border-bottom-left-radius: 50px; /* Arrondi uniquement en haut à gauche */
         margin-top: 50px; /* Espace entre l'image et le texte */
-        margin-right: 40px;
+        margin-left: 20px;
         align-items: center; /* Centre l'image*/
         margin-bottom: 50px;
     }
