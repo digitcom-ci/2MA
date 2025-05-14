@@ -1,96 +1,178 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digitcom</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">    <script defer src="script.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <script defer src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entreprise Énergie | Accueil</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
+        <!-- Top Banner -->
+    <div class="top-banner" id="top-banner">
+        <div class="annonce">
+            <p>Nouvelle offre : Installation solaire gratuite pour les PME !</p>
+        </div>
+        <div class="links">
+            <p><i class="far fa-clock"></i> Opening hours : 08h00 - 17h00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>Visit us :&nbsp;&nbsp;&nbsp;<a href="" class="link"><i class="fab fa-facebook-f"></i></a>&nbsp;&nbsp;&nbsp;<a href="" class="link"><i class="fab fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;<a href="" class="link"><i class="fab fa-x-twitter"></i></a>&nbsp;&nbsp;&nbsp;<a href="" class="link"><i class="fab fa-linkedin-in"></i></a></p>
+        </div>  
+    </div>
+  
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+        <div class="logo">
+            <img src="image/logo.jpg" class="logo">
+        </div>
+        <!-- Menu hamburger -->
         <div class="hamburger" id="hamburger">
             <span></span>
         </div>
-
-        <div class="logo">
-            <img src="images/logob1.png" alt="Logo" class="logo">
-        </div>
+        <!-- Barre de navigation -->
         <nav>
             <ul class="nav-links">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="about.html">L'agence</a></li>
-                <li><a href="services.html">Nos services</a></li>
-                <li><a href="lafabrik.html">La fabrik</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <br>
+                <br>
+                <br>
+                <div class="mobile">
+                    <p>                    
+                        <a href="" class="link"><i class="fab fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;<a href="" class="link"><i class="fab fa-x-twitter"></i></a>&nbsp;&nbsp;&nbsp;<a href="" class="link"><i class="fab fa-linkedin-in"></i></a>
+                    </p>
+                    <a href="contact.html" class="btn">Contact us</a>
+                </div>
             </ul>
         </nav>
-        <a href="devis.html" class="btn-devis">Demander un devis</a>
+
+        <div class="hambur-ger" id="hambur-ger">
+            <span></span>
+        </div>
+
+        <nav>
+            <ul class="navlinks">
+                <li>
+                    <a href="#">
+                        <div class="lo-go">
+                            <img src="image/logo.jpg" class="lo-go">
+                        </div>
+                    </a>
+                </li>
+                <li><a href="#"><p><i class="fas fa-phone"></i> (+225) 07 07 07 07 07</p></a></li>
+                <li><a href="#"><p><i class="fas fa-envelope"></i> contact@2ma.com</p></a></li>
+                <li><a href="#"><p><i class="fas fa-map-marker-alt"></i> Dubai , Côte d'Ivoire</p></a></li>
+                <li><a href="" class="link"><i class="fab fa-facebook-f"></i></a>&nbsp;&nbsp;&nbsp;<a href="" class="link"><i class="fab fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;<a href="" class="link"><i class="fab fa-x-twitter"></i></a>&nbsp;&nbsp;&nbsp;<a href="" class="link"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="heropage">
-        <div class="overlay"></div>
-    </section>
-
-    <div class="title">
-        <p><a href="index.html" class="titlelink">Accueil</a> / Contact</p>
-    </div>
-
-    <section class="reservation">
-        <div class="reservation-container">
-            <div class="reservation-content">
-                <h2>Demander un devis</h2>
-                <a href="devis.html" class="btn-devis">Devis</a>
-            </div>
-            <br>
-            <div class="reservation-content">
-                <h2>RDV avec un conseiller</h2>
-                <a href="rdv.html" class="btn-devis">Prendre RDV</a>
-            </div>
-            <br>
-            <div class="reservation-content">
-                <h2>Passer une commande</h2>
-                <a href="commande.html" class="btn-devis">Commander</a>
-            </div>
-        </div>
-    </section>
-
-    <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.475794112472!2d-3.6915956!3d5.1876302999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc203118226814d%3A0x91aa05f3e8a62ec9!2sCoconut&#39;s%20Village%20Grand-Bassam!5e0!3m2!1sen!2sci!4v1739923639243!5m2!1sen!2sci" 
-        width="100%" 
-        height="453" 
-        style="border:0;" 
-        allowfullscreen="" 
-        loading="lazy">
-    </iframe>
-
-    <footer>
-        <div class="footer-container">
-            <div class="footer-section">
-                <h3>Contact</h3>
-                <p>Grand Bassam, Côte d'Ivoire</p>
-                <p>+225 07 05 73 33 98</p>
-                <p>contact@digitcom-ci.com</p>
-            </div>
-            <div class="footer-section">
-                <h3>Horaires</h3>
-                <p>Lundi - Vendredi : 09h - 17h30</p>
-                <p>Samedi : 09h - 12h</p>
-            </div>
-            <div class="footer-section">
-                <h3>Suivez-nous</h3>
-                <div class="social-icons">
-                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+    <section class="contact-us">
+        <div class="hero" style="background-image: url('image/a.png')">
+            <div class="overlay"></div> <!-- OMBRE -->
+            <div class="content">
+                <div class="display">
+                    <h1>Contact us</h1>
+                    <h4><a href="index.html" class="btn-home">Home</a> / Contact us</h4>
                 </div>
             </div>
         </div>
-        <p class="copyright">© 2025 DigitCom. Tous droits réservés.</p>
+    </section>
+
+    <section class="double-card">
+        <!-- Carte de gauche -->
+        <div class="card left-card">
+            <h2>Join Us</h2>
+            <p>Take advantage of our</p>
+            <p>services by signing</p>
+            <p>now.</p>
+            <div class="card-middle">
+                <div class="middle-container">
+                    <i class="fas fa-phone"></i> 
+                    <div class="content">
+                        <p>Phone</p>
+                        <h1>(+225) 07 07 07 07 07</h1>
+                    </div>
+                </div>
+                <div class="middle-container">
+                    <i class="fas fa-envelope"></i>
+                    <div class="content">
+                        <p>Email</p>
+                        <h1>contact@2ma.com</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+        <!-- Carte de droite superposée -->
+        <div class="card right-card">
+            <h3>Formulaire d'inscription</h3>
+            <form>
+                <div class="nom">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="email" required>
+                </div>
+                <input type="text" placeholder="Subject" required>
+                <textarea placeholder="message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+      
+    <section class="section-contact">
+        <div class="contact-container">
+      
+            <!-- Bloc 1 : Nos services -->
+            <div class="contact-bloc">
+                <h2>Services</h2>
+                <hr class="ligne-hachee">
+                <ul class="liste-fleche">
+                <li><i class="fas fa-chevron-right"></i> Solar Installation</li>
+                <li><i class="fas fa-chevron-right"></i> Energy Audit</li>
+                <li><i class="fas fa-chevron-right"></i> Maintenance</li>
+                </ul>
+            </div>
+      
+            <!-- Bloc 2 : Coordonnées -->
+            <div class="contact-bloc">
+                <h2>Contact us</h2>
+                <hr class="ligne-hachee">
+                <ul class="liste-contact">
+                <li><i class="fas fa-phone"></i> (+225) 07 07 07 07 07</li>
+                <li><i class="fas fa-envelope"></i> contact@2ma.com</li>
+                <li><i class="fas fa-map-marker-alt"></i> Dubai, Côte d'Ivoire</li>
+                <li class="reseaux">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                </ul>
+            </div>
+        
+            <!-- Bloc 3 : Logo -->
+            <div class="contact-bloc logo-bloc">
+                <img src="image/logo.jpg" alt="Logo entreprise">
+            </div>
+        </div>
+    </section>      
+
+    <footer>
+        <p>2MA Petroleum - Copyright 2025. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="about.html" class="btn-vip">about</a>
+            <a href="services.html" class="btn-vip">services</a>
+            <a href="contact.html" class="btn-vip">contact us</a>
+        </div>
     </footer>
+    
+
+
     <script src="script.js"></script>
+
 </body>
 </html>
