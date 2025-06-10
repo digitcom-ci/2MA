@@ -396,13 +396,13 @@ background-color: var(--jaune);
 .btn-home:hover {
     color: var(--jaune);
 }
-.image-container {
+.img-container {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Effet d'ombre autour de l'image */
     border-radius: 10px;
     overflow: hidden;
 }
 
-.image-container img {
+.img-container img {
     max-width: 90vw; /* Responsive largeur */
     max-height: 90vh; /* Responsive hauteur */
     display: block;
