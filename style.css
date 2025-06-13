@@ -403,9 +403,10 @@ background-color: var(--jaune);
 }
 
 .img-content img {
-    max-width: 90vw; /* Responsive largeur */
+    max-width: 170vw; /* Responsive largeur */
     max-height: 90vh; /* Responsive hauteur */
     display: block;
+    margin top: 10%;
 }
 /*------------------PRODUCT SECTION----------------------*/
 .section-produits {
