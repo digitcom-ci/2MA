@@ -364,7 +364,7 @@ from {
     opacity: 0;
     transform: translateY(50px);
 }
-to {
+to 
     opacity: 1;
     transform: translateY(0);
 }
@@ -403,6 +403,18 @@ background-color: var(--jaune);
   padding: 0;
 }
 
+.img-container {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Effet d'ombre autour de l'image */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img-container img {
+    max-width: 90vw; /* Responsive largeur */
+    max-height: 90vh; /* Responsive hauteur */
+    display: block;
+}
+    
 .img-content {
   display: flex;
   justify-content: center;
