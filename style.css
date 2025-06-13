@@ -396,12 +396,6 @@ background-color: var(--jaune);
 .btn-home:hover {
     color: var(--jaune);
 }
-.img-content {
-.image-container {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
 
 .img-container {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Effet d'ombre autour de l'image */
@@ -413,6 +407,11 @@ background-color: var(--jaune);
     max-width: 90vw; /* Responsive largeur */
     max-height: 90vh; /* Responsive hauteur */
     display: block;
+}
+.image-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
     
 .img-content {
