@@ -397,17 +397,26 @@ background-color: var(--jaune);
     color: var(--jaune);
 }
 .img-content {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Effet d'ombre autour de l'image */
-    border-radius: 10px;
-    overflow: hidden;
+.image-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.img-content img {
-    max-width: 170vw; /* Responsive largeur */
-    max-height: 90vh; /* Responsive hauteur */
-    display: block;
-    margin top: 10%;
+.img-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
+
+.team {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
 /*------------------PRODUCT SECTION----------------------*/
 .section-produits {
     padding: 60px 80px;
