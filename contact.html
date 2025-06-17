@@ -112,15 +112,18 @@
       
         <!-- Carte de droite superposée -->
         <div class="card right-card">
+          <p class="request_message">
+            Message envoyé!
+          </p>
             <h3>Formulaire d'inscription</h3>
-            <form>
-                <div class="nom">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="email" required>
-                </div>
-                <input type="text" placeholder="Subject" required>
-                <textarea placeholder="message" rows="4" required></textarea>
-                <button type="submit">Send</button>
+            <form action="" method="POST">
+              <label>Nom</label>
+              <input type="text" name="username">
+              <label>Email</label>
+              <input type="email" name="email">
+              <label>Message</label>
+                <textarea name="message" cols="30" rows="10" required></textarea>
+                <button name="send">Envoyer</button>
             </form>
         </div>
     </section>
