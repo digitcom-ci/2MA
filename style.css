@@ -369,7 +369,7 @@ to
     transform: translateY(0);
 }
 }
-.btn {
+.btn-slide {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 30px;
@@ -380,7 +380,7 @@ to
     transition: background 0.3s;
     font-weight: bold;
 }
-.btn:hover {
+.btn-slide:hover {
 background-color: var(--jaune);
 }
 .btn-home {
