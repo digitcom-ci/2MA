@@ -915,20 +915,20 @@ background-color: var(--jaune);
     margin-left: 10px;
     margin-right: 10px;
 }
+
 .right-card {
   background-color: #ffffff;
   border-radius: 20px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   padding: 40px;
-  max-width: 600px;
-  margin: auto;
-  position: relative;
-  z-index: 2;
-  position: absolute;
-  margin-top: -10%;
+  max-width: 500px;
   right: 5%;
   width: 520px;
   transform: translateY(10%);
+  margin: auto;
+  position: absolute;
+  margin-top: -10%;
+  z-index: 2;
 }
 
 .right-card h3 {
@@ -988,100 +988,6 @@ background-color: var(--jaune);
   display: none; /* Cacher par défaut */
 }
 
-.right-card input {
-    margin-bottom: 20px;
-    margin-right: 20px;
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 10px;
-    border: 1px solid;
-    width: 453px;
-}
-.right-card textarea {
-    margin-bottom: 20px;
-    margin-right: 15px;
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 10px;
-    width: 453px;
-}
-.right-card button {
-    margin-top: 20px;
-    padding: 12px;
-    background-color: #0237FC;
-    color: white;
-    border: none;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-.right-card button:hover {
-    background-color: #001fb3;
-} 
-
-.request_message { 
-    width: 400px; 
-    text-transform: capitalize;
-    background-color: #fff; 
-    text-align: center;
-    color: green; 
-    font-size: 13px;
-    padding: 14px; 
-    margin-bottom: 20px;
-    radius: 20px; box-shadow: 0 0 8px rgba(0,0,0,0. 1);
-    animation: anime 0.5s rgba (0,0,0,0.1); ease-out;
-}
-
-/*animation*/
-@keyframes anime {
-    from {
-        transform: translateY (-70px);
-    }
-}
-form {
-    background-color: #fff;
-    border-radius: 20px; 
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 0 8px rgba(0,0,0,0.1); 
-    width: 400px; 
-    padding: 20px;
-}
-form h2 {
-    color: #333;
-    font-size: 35px; 
-    margin-bottom: 5px;
-    text-align: center;
-}
-label {
-    font-size: 16px; 
-    font-weight: 400;
-    margin: 5px 0;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-}
-input, textarea {
-    padding: 8px;
-    resize: none;
-    outline: e；
-    border: 1px solid •#999;
-    border-radius: 4px;
-button {
-    background-color: #5970e3；
-    color: #fff；
-    border: 0;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 18px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    padding: 10px;
-    transition: 0.5s;
-}
-button: hover {
-    transform: scale(1.02);
-}
-  
 /*-----------------FOOTER---------------*/
 footer {
     background-color: #FFF;
